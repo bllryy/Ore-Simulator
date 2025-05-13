@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	anticope/rejects/mixin/GameRendererMixin	Lnet/minecraft/client/MinecraftClient;	client	field_4015
+FIELD	anticope/rejects/mixin/GameRendererMixin	Lnet/minecraft/client/util/Pool;	pool	field_53066
