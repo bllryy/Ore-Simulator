@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "meteor-rejects",
+  "id": "ore-simulator",
   "version": "0.3",
 
-  "name": "Meteor Rejects",
-  "description": "An addon to Meteor Client that adds modules and commands that were too useless to be added to Meteor directly.",
+  "name": "Ore-Simulator",
+  "description": "X-ray on Crack!",
   "authors": [
-    "Cloudburst",
-    "StormyBytes"
+    "bllry"
   ],
   "contact": {
-    "issues": "https://github.com/AntiCope/meteor-rejects/issues",
-    "sources": "https://github.com/AntiCope/meteor-rejects"
+    "issues": "https://github.com/bllryy/Ore-Simulator/pulls",
+    "sources": "https://github.com/bllryy/Ore-Simulator"
   },
 
   "license": "GPL-3.0",
@@ -20,17 +19,17 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "anticope.rejects.MeteorRejectsAddon"
+      "bllry.oresim.bllryAddon"
     ],
     "seedcrackerx": [
-      "anticope.rejects.utils.SeedCrackerEP"
+      "bllry.oresim.utils.SeedCrackerEP"
     ]
   },
   "mixins": [
-    "meteor-rejects.mixins.json",
-    "meteor-rejects-meteor.mixins.json"
+    "ore-simulator.mixins.json",
+    "ore-simulator-metor.mixins.json"
   ],
-  "accessWidener": "meteor-rejects.accesswidener",
+  "accessWidener": "Ore-Simulator.accesswidener",
   "custom": {
     "meteor-client:color": "227,0,0",
     "github:sha": ""

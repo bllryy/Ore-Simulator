@@ -5,11 +5,341 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f41dea0f-f1a2-4985-b542-a42f63c9122d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addon/AddonTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addon/OreSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addon/hud/HudExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addon/hud/HudExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addon/mixin/ExampleMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addon/mixin/ExampleMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addon/modules/ModuleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addon/modules/OreSim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ore-simulator-metor.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ore-simulator.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-2e15ae93bc/1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/minecraft-merged-2e15ae93bc-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-2e15ae93bc/1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/minecraft-merged-2e15ae93bc-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-2e15ae93bc/1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/minecraft-merged-2e15ae93bc-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar.backup" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-2e15ae93bc/1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/minecraft-merged-2e15ae93bc-1.21.4-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.jar.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2/meteordevelopment/baritone/1.21.4-SNAPSHOT/baritone-1.21.4-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2/meteordevelopment/baritone/1.21.4-SNAPSHOT/baritone-1.21.4-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2/meteordevelopment/meteor-client/1.21.4-SNAPSHOT/meteor-client-1.21.4-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2/meteordevelopment/meteor-client/1.21.4-SNAPSHOT/meteor-client-1.21.4-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/3.0.11+b1caf1e904/fabric-resource-loader-v0-3.0.11+b1caf1e904.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/3.0.11+b1caf1e904/fabric-resource-loader-v0-3.0.11+b1caf1e904.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/MeteorRejectsAddon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/arguments/ClientPosArgumentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/arguments/EnumArgumentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/arguments/EnumStringArgumentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/CenterCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/ClearChatCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/GhostCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/GiveCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/HeadsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/KickCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/LocateCommand$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/LocateCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/PanicCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/ReconnectCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/SaveSkinCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/SeedCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/ServerCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/SetBlockCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/SetVelocityCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/TeleportCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/commands/TerrainExport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/events/OffGroundSpeedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/events/PlayerRespawnEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/events/SeedChangedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/events/StopUsingItemEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/events/TeleportParticleEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/hud/RadarHud.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/screens/HeadScreen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/screens/HeadScreen$Categories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/screens/HeadScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/screens/InteractionScreen$StaticListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/screens/InteractionScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/screens/StatsScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/servers/CleanUpScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/servers/LegacyServerFinderScreen$ServerFinderState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/servers/LegacyServerFinderScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/servers/ServerFinderScreen$ServerFinderState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/servers/ServerFinderScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/servers/ServerManagerScreen$ThrowingRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/servers/ServerManagerScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/MeteorRoundedGuiTheme$ThreeStateColorSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/MeteorRoundedGuiTheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/MeteorWidget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorHorizontalSeparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorMultiLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorQuad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorSection$WHeaderTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorSection$WMeteorHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorTooltip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorTopBar$WTopBarButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorTopBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorVerticalSeparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorWindow$WMeteorHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/WMeteorWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorDropdown$WRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorDropdown$WValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorDropdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorSlider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorTextBox$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorTextBox$CompletionItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorTextBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorCheckbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorFavorite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorMinus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorPlus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/ClientCommonNetwokHandlerMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/ClientPlayNetworkHandlerMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/ClientPlayerInteractionManagerMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/CommandSuggestorMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/CountPlacementModifierAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/Deadmau5FeatureRendererMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/EntityAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/GameRendererMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/HandshakeC2SPacketAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/HeightContextMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/HeightRangePlacementModifierAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/LivingEntityMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/LivingEntityRendererMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/MultiplayerScreenAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/MultiplayerScreenMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/PlayerEntityMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/PlayerMoveC2SPacketAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/RarityFilterPlacementModifierAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/ServerListAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/StructureVoidBlockMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/TexturedRenderLayersMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/ToastManagerMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/VehicleMoveC2SPacketAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/baritone/MineProcessMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/AccountMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/AccountsMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/AccountsScreenMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/ConfigTabMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/DefaultSettingsWidgetFactoryMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/FontUtilsMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/GuiRendererAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/HttpMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/HttpRequestMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/ModuleMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/ModulesMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/WAccountMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/modules/AutoSignMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/modules/FlightMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/modules/InventoryTweaksMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/modules/KillAuraMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixin/meteor/modules/NoRenderMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixininterface/IInventoryTweaks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/mixininterface/INoRender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/modules/InteractionMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/modules/OreSim$AirCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/modules/OreSim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/modules/Rendering$Shader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/modules/Rendering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/modules/ShieldBypass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/modules/SilentDisconnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/settings/GameModeListSetting$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/settings/GameModeListSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/settings/GameModeListSettingScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/settings/RejectsSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/settings/StringMapSetting$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/settings/StringMapSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/ConfigModifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/GiveUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/Ore$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/Ore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/RejectsConfig$HttpAllowed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/RejectsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/RejectsUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/SeedCrackerEP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/WorldGenUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/WorldGenUtils$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/WorldGenUtils$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/WorldGenUtils$Feature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/WorldGenUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/WorldUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/accounts/AddCustomYggdrasilAccountScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/accounts/CustomYggdrasilAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/accounts/CustomYggdrasilLogin$LocalYggdrasilAuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/accounts/CustomYggdrasilLogin$LocalYggdrasilMinecraftSessionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/accounts/CustomYggdrasilLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/accounts/GetPlayerUUID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/gui/GuiUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/gui/RoundedRenderer2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/portscanner/PScanRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/portscanner/PortScannerManager$ScanResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/portscanner/PortScannerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/seeds/Seed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/seeds/Seeds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/IPAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/IServerFinderDisconnectListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/IServerFinderDoneListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/LegacyServerPinger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/MServerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/ServerListPinger$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/ServerListPinger$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/ServerListPinger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/anticope/rejects/utils/server/ServerPinger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/meteor-rejects-addon-refmap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/devlibs/meteor-rejects-addon-0.3-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/devlibs/meteor-rejects-addon-0.3-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/meteor-rejects-addon-0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/meteor-rejects-addon-0.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.main.tiny" beforeDir="false" afterPath="$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.main.tiny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2.meteordevelopment-baritone-1.21.4-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2.meteordevelopment-baritone-1.21.4-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2.meteordevelopment-meteor-client-1.21.4-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2.meteordevelopment-meteor-client-1.21.4-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-3.0.11+b1caf1e904.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/loom-cache/remapped_working/net_fabricmc_yarn_1_21_4_1_21_4_build_8_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-3.0.11+b1caf1e904.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/rejects/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/meteor-rejects-meteor.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/meteor-rejects.accesswidener" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Ore-Simulator.accesswidener" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/meteor-rejects.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/MeteorRejectsAddon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/bllryAddon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/arguments/ClientPosArgumentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/arguments/ClientPosArgumentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/arguments/EnumArgumentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/arguments/EnumArgumentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/arguments/EnumStringArgumentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/arguments/EnumStringArgumentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/CenterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/CenterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/ClearChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/ClearChatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/GhostCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/GhostCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/GiveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/GiveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/HeadsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/HeadsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/KickCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/KickCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/LocateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/LocateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/PanicCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/PanicCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/ReconnectCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/ReconnectCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/SaveSkinCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/SaveSkinCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/SeedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/SeedCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/ServerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/ServerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/SetBlockCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/SetBlockCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/SetVelocityCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/SetVelocityCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/TeleportCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/TeleportCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/commands/TerrainExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/commands/TerrainExport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/events/OffGroundSpeedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/events/OffGroundSpeedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/events/PlayerRespawnEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/events/PlayerRespawnEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/events/SeedChangedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/events/SeedChangedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/events/StopUsingItemEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/events/StopUsingItemEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/events/TeleportParticleEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/events/TeleportParticleEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/hud/RadarHud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/hud/RadarHud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/screens/HeadScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/screens/HeadScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/screens/InteractionScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/screens/InteractionScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/screens/StatsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/screens/StatsScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/servers/CleanUpScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/servers/CleanUpScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/servers/LegacyServerFinderScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/servers/LegacyServerFinderScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/servers/ServerFinderScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/servers/ServerFinderScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/servers/ServerManagerScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/servers/ServerManagerScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/MeteorRoundedGuiTheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/MeteorRoundedGuiTheme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/MeteorWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/MeteorWidget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorHorizontalSeparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorHorizontalSeparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorMultiLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorMultiLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorQuad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorQuad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorTooltip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorTooltip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorTopBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorTopBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorVerticalSeparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorVerticalSeparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/WMeteorWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/WMeteorWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/input/WMeteorDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/input/WMeteorSlider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/input/WMeteorTextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/input/WMeteorTextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/pressable/WMeteorButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorCheckbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/pressable/WMeteorCheckbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorFavorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/pressable/WMeteorFavorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/pressable/WMeteorMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/pressable/WMeteorPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/gui/themes/rounded/widgets/pressable/WMeteorTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/gui/themes/rounded/widgets/pressable/WMeteorTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/ClientCommonNetwokHandlerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/ClientCommonNetwokHandlerMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/ClientPlayNetworkHandlerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/ClientPlayNetworkHandlerMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/ClientPlayerInteractionManagerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/ClientPlayerInteractionManagerMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/CommandSuggestorMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/CommandSuggestorMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/CountPlacementModifierAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/CountPlacementModifierAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/Deadmau5FeatureRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/Deadmau5FeatureRendererMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/EntityAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/EntityAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/GameRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/GameRendererMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/HandshakeC2SPacketAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/HandshakeC2SPacketAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/HeightContextMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/HeightContextMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/HeightRangePlacementModifierAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/HeightRangePlacementModifierAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/LivingEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/LivingEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/LivingEntityRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/LivingEntityRendererMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/MultiplayerScreenAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/MultiplayerScreenAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/MultiplayerScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/MultiplayerScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/PlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/PlayerEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/PlayerMoveC2SPacketAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/PlayerMoveC2SPacketAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/RarityFilterPlacementModifierAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/RarityFilterPlacementModifierAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/ServerListAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/ServerListAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/StructureVoidBlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/StructureVoidBlockMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/TexturedRenderLayersMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/TexturedRenderLayersMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/ToastManagerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/ToastManagerMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/VehicleMoveC2SPacketAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/VehicleMoveC2SPacketAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/baritone/MineProcessMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/baritone/MineProcessMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/AccountMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/AccountMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/AccountsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/AccountsMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/AccountsScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/AccountsScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/ConfigTabMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/ConfigTabMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/DefaultSettingsWidgetFactoryMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/DefaultSettingsWidgetFactoryMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/FontUtilsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/FontUtilsMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/GuiRendererAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/GuiRendererAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/HttpMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/HttpMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/HttpRequestMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/HttpRequestMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/ModuleMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/ModuleMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/ModulesMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/ModulesMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/WAccountMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/WAccountMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/modules/AutoSignMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/modules/AutoSignMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/modules/FlightMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/modules/FlightMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/modules/InventoryTweaksMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/modules/InventoryTweaksMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/modules/KillAuraMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/modules/KillAuraMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixin/meteor/modules/NoRenderMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixin/meteor/modules/NoRenderMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixininterface/IInventoryTweaks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixininterface/IInventoryTweaks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/mixininterface/INoRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/mixininterface/INoRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/modules/InteractionMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/forks/InteractionMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/modules/OreSim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/modules/OreSim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/modules/Rendering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/forks/Rendering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/modules/ShieldBypass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/forks/ShieldBypass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/modules/SilentDisconnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/forks/SilentDisconnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/settings/GameModeListSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/settings/GameModeListSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/settings/GameModeListSettingScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/settings/GameModeListSettingScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/settings/RejectsSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/settings/RejectsSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/settings/StringMapSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/settings/StringMapSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/ConfigModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/ConfigModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/GiveUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/GiveUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/Ore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/Ore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/RejectsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/RejectsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/RejectsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/RejectsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/SeedCrackerEP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/SeedCrackerEP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/WorldGenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/WorldGenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/WorldUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/WorldUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/accounts/AddCustomYggdrasilAccountScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/accounts/AddCustomYggdrasilAccountScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/accounts/CustomYggdrasilAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/accounts/CustomYggdrasilAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/accounts/CustomYggdrasilLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/accounts/CustomYggdrasilLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/accounts/GetPlayerUUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/accounts/GetPlayerUUID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/gui/GuiUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/gui/GuiUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/gui/RoundedRenderer2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/gui/RoundedRenderer2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/portscanner/PScanRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/portscanner/PScanRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/portscanner/PortScannerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/portscanner/PortScannerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/seeds/Seed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/seeds/Seed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/seeds/Seeds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/seeds/Seeds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/server/IPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/server/IPAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/server/IServerFinderDisconnectListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/server/IServerFinderDisconnectListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/server/IServerFinderDoneListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/server/IServerFinderDoneListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/server/LegacyServerPinger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/server/LegacyServerPinger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/server/MServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/server/MServerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/server/ServerListPinger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/server/ServerListPinger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anticope/rejects/utils/server/ServerPinger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bllry/oresim/utils/server/ServerPinger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/meteor-rejects-meteor.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/meteor-rejects.mixins.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +354,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="oresim" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="oresim" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="oresim" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -52,19 +396,58 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2x1nOZHHSoYff1U2DY1QjgGnfFM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/lily/projects/oresim"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.oresim [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.oresim [build].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lily/projects/oresim/build/resources/main/assets/rejects&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build/resources/main/assets/rejects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration name="oresim [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.oresim [build]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

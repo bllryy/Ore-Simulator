@@ -1,0 +1,180 @@
+{
+  "mappings": {
+    "bllry/oresim/mixin/ClientCommonNetwokHandlerMixin": {
+      "onDisconnected": "Lnet/minecraft/class_8673;method_10839(Lnet/minecraft/class_9812;)V"
+    },
+    "bllry/oresim/mixin/ClientPlayNetworkHandlerMixin": {
+      "onPlayerRespawn": "Lnet/minecraft/class_634;method_11117(Lnet/minecraft/class_2724;)V"
+    },
+    "bllry/oresim/mixin/ClientPlayerInteractionManagerMixin": {
+      "stopUsingItem": "Lnet/minecraft/class_636;method_2897(Lnet/minecraft/class_1657;)V"
+    },
+    "bllry/oresim/mixin/CommandSuggestorMixin": {
+      "render": "Lnet/minecraft/class_4717;method_23923(Lnet/minecraft/class_332;II)V"
+    },
+    "bllry/oresim/mixin/CountPlacementModifierAccessor": {
+      "count": "field_35719:Lnet/minecraft/class_6017;"
+    },
+    "bllry/oresim/mixin/Deadmau5FeatureRendererMixin": {
+      "render": "Lnet/minecraft/class_978;method_4181(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_10055;FF)V"
+    },
+    "bllry/oresim/mixin/EntityAccessor": {
+      "setFlag": "method_5729(IZ)V"
+    },
+    "bllry/oresim/mixin/GameRendererMixin": {
+      "Lnet/minecraft/client/render/WorldRenderer;drawEntityOutlinesFramebuffer()V": "Lnet/minecraft/class_761;method_3254()V",
+      "render": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V"
+    },
+    "bllry/oresim/mixin/HandshakeC2SPacketAccessor": {
+      "address": "comp_1564:Ljava/lang/String;"
+    },
+    "bllry/oresim/mixin/HeightContextMixin": {
+      "<init>": "Lnet/minecraft/class_5868;<init>(Lnet/minecraft/class_2794;Lnet/minecraft/class_5539;)V",
+      "Lnet/minecraft/world/gen/chunk/ChunkGenerator;getMinimumY()I": "Lnet/minecraft/class_2794;method_33730()I",
+      "Lnet/minecraft/world/gen/chunk/ChunkGenerator;getWorldHeight()I": "Lnet/minecraft/class_2794;method_12104()I"
+    },
+    "bllry/oresim/mixin/HeightRangePlacementModifierAccessor": {
+      "height": "field_35726:Lnet/minecraft/class_6122;"
+    },
+    "bllry/oresim/mixin/LivingEntityMixin": {
+      "handleStatus": "Lnet/minecraft/class_1309;method_5711(B)V"
+    },
+    "bllry/oresim/mixin/LivingEntityRendererMixin": {
+      "setupTransforms": "Lnet/minecraft/class_922;method_4058(Lnet/minecraft/class_10042;Lnet/minecraft/class_4587;FF)V"
+    },
+    "bllry/oresim/mixin/MultiplayerScreenAccessor": {
+      "serverListWidget": "field_3043:Lnet/minecraft/class_4267;"
+    },
+    "bllry/oresim/mixin/MultiplayerScreenMixin": {
+      "init": "Lnet/minecraft/class_500;method_25426()V"
+    },
+    "bllry/oresim/mixin/PlayerEntityMixin": {
+      "getOffGroundSpeed": "Lnet/minecraft/class_1657;method_49484()F"
+    },
+    "bllry/oresim/mixin/PlayerMoveC2SPacketAccessor": {
+      "x": "field_12889:D",
+      "z": "field_12884:D"
+    },
+    "bllry/oresim/mixin/RarityFilterPlacementModifierAccessor": {
+      "chance": "field_35753:I"
+    },
+    "bllry/oresim/mixin/ServerListAccessor": {
+      "servers": "field_3749:Ljava/util/List;"
+    },
+    "bllry/oresim/mixin/StructureVoidBlockMixin": {
+      "getRenderType": "Lnet/minecraft/class_2518;method_9604(Lnet/minecraft/class_2680;)Lnet/minecraft/class_2464;"
+    },
+    "bllry/oresim/mixin/TexturedRenderLayersMixin": {
+      "getChestTextureId(Lnet/minecraft/block/entity/BlockEntity;Lnet/minecraft/block/enums/ChestType;Z)Lnet/minecraft/client/util/SpriteIdentifier;": "Lnet/minecraft/class_4722;method_24062(Lnet/minecraft/class_2586;Lnet/minecraft/class_2745;Z)Lnet/minecraft/class_4730;"
+    },
+    "bllry/oresim/mixin/ToastManagerMixin": {
+      "add": "Lnet/minecraft/class_374;method_1999(Lnet/minecraft/class_368;)V"
+    },
+    "bllry/oresim/mixin/VehicleMoveC2SPacketAccessor": {
+      "<init>": "<init>",
+      "position": "comp_3350:Lnet/minecraft/class_243;"
+    },
+    "bllry/oresim/mixin/baritone/MineProcessMixin": {
+      "Lbaritone/api/utils/BlockOptionalMetaLookup;has(Lnet/minecraft/block/BlockState;)Z": "Lbaritone/api/utils/BlockOptionalMetaLookup;has(Lnet/minecraft/class_2680;)Z",
+      "a(Lbaritone/pathing/movement/CalculationContext;Lbaritone/api/utils/BlockOptionalMetaLookup;Ljava/util/List;Lnet/minecraft/util/math/BlockPos;)Z": "Lbaritone/process/MineProcess;a(Lbaritone/pathing/movement/CalculationContext;Lbaritone/api/utils/BlockOptionalMetaLookup;Ljava/util/List;Lnet/minecraft/class_2338;)Z"
+    },
+    "bllry/oresim/mixin/meteor/AccountMixin": {
+      "Lnet/minecraft/nbt/NbtCompound;putString(Ljava/lang/String;Ljava/lang/String;)V": "Lnet/minecraft/class_2487;method_10582(Ljava/lang/String;Ljava/lang/String;)V",
+      "toTag": "Lmeteordevelopment/meteorclient/systems/accounts/Account;toTag()Lnet/minecraft/class_2487;"
+    },
+    "bllry/oresim/mixin/meteor/AccountsMixin": {
+      "Lnet/minecraft/nbt/NbtCompound;getString(Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/class_2487;method_10558(Ljava/lang/String;)Ljava/lang/String;",
+      "lambda$fromTag$0": "Lmeteordevelopment/meteorclient/systems/accounts/Accounts;lambda$fromTag$0(Lnet/minecraft/class_2520;)Lmeteordevelopment/meteorclient/systems/accounts/Account;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "bllry/oresim/mixin/ClientCommonNetwokHandlerMixin": {
+        "onDisconnected": "Lnet/minecraft/class_8673;method_10839(Lnet/minecraft/class_9812;)V"
+      },
+      "bllry/oresim/mixin/ClientPlayNetworkHandlerMixin": {
+        "onPlayerRespawn": "Lnet/minecraft/class_634;method_11117(Lnet/minecraft/class_2724;)V"
+      },
+      "bllry/oresim/mixin/ClientPlayerInteractionManagerMixin": {
+        "stopUsingItem": "Lnet/minecraft/class_636;method_2897(Lnet/minecraft/class_1657;)V"
+      },
+      "bllry/oresim/mixin/CommandSuggestorMixin": {
+        "render": "Lnet/minecraft/class_4717;method_23923(Lnet/minecraft/class_332;II)V"
+      },
+      "bllry/oresim/mixin/CountPlacementModifierAccessor": {
+        "count": "field_35719:Lnet/minecraft/class_6017;"
+      },
+      "bllry/oresim/mixin/Deadmau5FeatureRendererMixin": {
+        "render": "Lnet/minecraft/class_978;method_4181(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_10055;FF)V"
+      },
+      "bllry/oresim/mixin/EntityAccessor": {
+        "setFlag": "method_5729(IZ)V"
+      },
+      "bllry/oresim/mixin/GameRendererMixin": {
+        "Lnet/minecraft/client/render/WorldRenderer;drawEntityOutlinesFramebuffer()V": "Lnet/minecraft/class_761;method_3254()V",
+        "render": "Lnet/minecraft/class_757;method_3192(Lnet/minecraft/class_9779;Z)V"
+      },
+      "bllry/oresim/mixin/HandshakeC2SPacketAccessor": {
+        "address": "comp_1564:Ljava/lang/String;"
+      },
+      "bllry/oresim/mixin/HeightContextMixin": {
+        "<init>": "Lnet/minecraft/class_5868;<init>(Lnet/minecraft/class_2794;Lnet/minecraft/class_5539;)V",
+        "Lnet/minecraft/world/gen/chunk/ChunkGenerator;getMinimumY()I": "Lnet/minecraft/class_2794;method_33730()I",
+        "Lnet/minecraft/world/gen/chunk/ChunkGenerator;getWorldHeight()I": "Lnet/minecraft/class_2794;method_12104()I"
+      },
+      "bllry/oresim/mixin/HeightRangePlacementModifierAccessor": {
+        "height": "field_35726:Lnet/minecraft/class_6122;"
+      },
+      "bllry/oresim/mixin/LivingEntityMixin": {
+        "handleStatus": "Lnet/minecraft/class_1309;method_5711(B)V"
+      },
+      "bllry/oresim/mixin/LivingEntityRendererMixin": {
+        "setupTransforms": "Lnet/minecraft/class_922;method_4058(Lnet/minecraft/class_10042;Lnet/minecraft/class_4587;FF)V"
+      },
+      "bllry/oresim/mixin/MultiplayerScreenAccessor": {
+        "serverListWidget": "field_3043:Lnet/minecraft/class_4267;"
+      },
+      "bllry/oresim/mixin/MultiplayerScreenMixin": {
+        "init": "Lnet/minecraft/class_500;method_25426()V"
+      },
+      "bllry/oresim/mixin/PlayerEntityMixin": {
+        "getOffGroundSpeed": "Lnet/minecraft/class_1657;method_49484()F"
+      },
+      "bllry/oresim/mixin/PlayerMoveC2SPacketAccessor": {
+        "x": "field_12889:D",
+        "z": "field_12884:D"
+      },
+      "bllry/oresim/mixin/RarityFilterPlacementModifierAccessor": {
+        "chance": "field_35753:I"
+      },
+      "bllry/oresim/mixin/ServerListAccessor": {
+        "servers": "field_3749:Ljava/util/List;"
+      },
+      "bllry/oresim/mixin/StructureVoidBlockMixin": {
+        "getRenderType": "Lnet/minecraft/class_2518;method_9604(Lnet/minecraft/class_2680;)Lnet/minecraft/class_2464;"
+      },
+      "bllry/oresim/mixin/TexturedRenderLayersMixin": {
+        "getChestTextureId(Lnet/minecraft/block/entity/BlockEntity;Lnet/minecraft/block/enums/ChestType;Z)Lnet/minecraft/client/util/SpriteIdentifier;": "Lnet/minecraft/class_4722;method_24062(Lnet/minecraft/class_2586;Lnet/minecraft/class_2745;Z)Lnet/minecraft/class_4730;"
+      },
+      "bllry/oresim/mixin/ToastManagerMixin": {
+        "add": "Lnet/minecraft/class_374;method_1999(Lnet/minecraft/class_368;)V"
+      },
+      "bllry/oresim/mixin/VehicleMoveC2SPacketAccessor": {
+        "<init>": "<init>",
+        "position": "comp_3350:Lnet/minecraft/class_243;"
+      },
+      "bllry/oresim/mixin/baritone/MineProcessMixin": {
+        "Lbaritone/api/utils/BlockOptionalMetaLookup;has(Lnet/minecraft/block/BlockState;)Z": "Lbaritone/api/utils/BlockOptionalMetaLookup;has(Lnet/minecraft/class_2680;)Z",
+        "a(Lbaritone/pathing/movement/CalculationContext;Lbaritone/api/utils/BlockOptionalMetaLookup;Ljava/util/List;Lnet/minecraft/util/math/BlockPos;)Z": "Lbaritone/process/MineProcess;a(Lbaritone/pathing/movement/CalculationContext;Lbaritone/api/utils/BlockOptionalMetaLookup;Ljava/util/List;Lnet/minecraft/class_2338;)Z"
+      },
+      "bllry/oresim/mixin/meteor/AccountMixin": {
+        "Lnet/minecraft/nbt/NbtCompound;putString(Ljava/lang/String;Ljava/lang/String;)V": "Lnet/minecraft/class_2487;method_10582(Ljava/lang/String;Ljava/lang/String;)V",
+        "toTag": "Lmeteordevelopment/meteorclient/systems/accounts/Account;toTag()Lnet/minecraft/class_2487;"
+      },
+      "bllry/oresim/mixin/meteor/AccountsMixin": {
+        "Lnet/minecraft/nbt/NbtCompound;getString(Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/class_2487;method_10558(Ljava/lang/String;)Ljava/lang/String;",
+        "lambda$fromTag$0": "Lmeteordevelopment/meteorclient/systems/accounts/Accounts;lambda$fromTag$0(Lnet/minecraft/class_2520;)Lmeteordevelopment/meteorclient/systems/accounts/Account;"
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 2025-05-13 19:32:07
+Description: mouseClicked event handler
+
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at knot//bllry.oresim.bllryAddon.getCommit(bllryAddon.java:84)
+	at knot//meteordevelopment.meteorclient.utils.player.TitleScreenCredits.onClicked(TitleScreenCredits.java:124)
+	at knot//net.minecraft.client.gui.screen.TitleScreen.handler$zgl000$meteor-client$onMouseClicked(TitleScreen.java:535)
+	at knot//net.minecraft.client.gui.screen.TitleScreen.mouseClicked(TitleScreen.java)
+	at knot//net.minecraft.client.Mouse.onMouseButton(Mouse.java:114)
+	at knot//net.minecraft.client.Mouse.method_22686(Mouse.java:215)
+	at knot//net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:110)
+	at knot//net.minecraft.client.Mouse.method_22684(Mouse.java:215)
+	at knot//org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+	at knot//org.lwjgl.system.JNI.invokeV(Native Method)
+	at knot//org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:186)
+	at knot//net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1364)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at knot//bllry.oresim.bllryAddon.getCommit(bllryAddon.java:84)
+	at knot//meteordevelopment.meteorclient.utils.player.TitleScreenCredits.onClicked(TitleScreenCredits.java:124)
+	at knot//net.minecraft.client.gui.screen.TitleScreen.handler$zgl000$meteor-client$onMouseClicked(TitleScreen.java:535)
+	at knot//net.minecraft.client.gui.screen.TitleScreen.mouseClicked(TitleScreen.java)
+	at knot//net.minecraft.client.Mouse.onMouseButton(Mouse.java:114)
+	at knot//net.minecraft.client.Mouse.method_22686(Mouse.java:215)
+	at knot//net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:110)
+	at knot//net.minecraft.client.Mouse.method_22684(Mouse.java:215)
+	at knot//org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+	at knot//org.lwjgl.system.JNI.invokeV(Native Method)
+	at knot//org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.screen.TitleScreen
+Stacktrace:
+	at knot//net.minecraft.client.Mouse.onMouseButton(Mouse.java:114)
+	at knot//net.minecraft.client.Mouse.method_22686(Mouse.java:215)
+	at knot//net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:110)
+	at knot//net.minecraft.client.Mouse.method_22684(Mouse.java:215)
+	at knot//org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+	at knot//org.lwjgl.system.JNI.invokeV(Native Method)
+	at knot//org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:186)
+	at knot//net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1364)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- Mouse --
+Details:
+	Scaled X: 288.75
+	Scaled Y: 19.0
+	Button: 0
+Stacktrace:
+	at knot//net.minecraft.client.Mouse.onMouseButton(Mouse.java:114)
+	at knot//net.minecraft.client.Mouse.method_22686(Mouse.java:215)
+	at knot//net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:110)
+	at knot//net.minecraft.client.Mouse.method_22684(Mouse.java:215)
+	at knot//org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+	at knot//org.lwjgl.system.JNI.invokeV(Native Method)
+	at knot//org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:186)
+	at knot//net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1364)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- Uptime --
+Details:
+	JVM uptime: 13.729s
+	Wall uptime: 7.480s
+	High-res time: 7.161s
+	Client ticks: 91 ticks / 4.550s
+Stacktrace:
+	at knot//net.minecraft.client.MinecraftClient.addDetailsToCrashReport(MinecraftClient.java:2371)
+	at knot//net.minecraft.client.MinecraftClient.printCrashReport(MinecraftClient.java:991)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:943)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, fabric, fabric-resource-loader-v0, fabricloader, meteor-client, ore-simulator, seedcrackerx-api
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.4
+	Minecraft Version ID: 1.21.4
+	Operating System: Linux (amd64) version 6.14.5-arch1-1
+	Java Version: 23.0.2, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 807157048 bytes (769 MiB) / 1509949440 bytes (1440 MiB) up to 8392802304 bytes (8004 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: GA106 [GeForce RTX 3060 Lite Hash Rate]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MiB): 288.00
+	Graphics card #0 deviceId: 0x2504
+	Graphics card #0 versionInfo: unknown
+	Graphics card #1 name: Navi 33 [Radeon RX 7600/7600 XT/7600M XT/7600S/7700S / PRO W7600]
+	Graphics card #1 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #1 VRAM (MiB): 258.00
+	Graphics card #1 deviceId: 0x7480
+	Graphics card #1 versionInfo: unknown
+	Virtual memory max (MiB): 20103.64
+	Virtual memory used (MiB): 12114.23
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 15980.82, total: 16007.65
+	Space in storage for workdir (MiB): available: 721763.88, total: 959306.44
+	JVM Flags: 0 total; 
+	Launched Version: Fabric
+	Backend library: LWJGL version 3.3.3-snapshot
+	Backend API: AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.7, DRM 3.61, 6.14.5-arch1-1) GL version 4.6 (Core Profile) Mesa 25.0.5-arch1.1, AMD
+	Window size: 1920x1008
+	GFLW Platform: x11
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Universe: 400921fb54442d18
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Render Distance: 12/12 chunks
+	Resource Packs: vanilla, fabric, fabric-resource-loader-v0, fabricloader, meteor-client, ore-simulator, seedcrackerx-api
+	Current Language: en_us
+	Locale: en_US
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor
+
+-- Meteor Client --
+
+Version: 1.21.4
+Build: 42
+
+[[ Active Modules ]]
+
+[Misc]:
+discord-presence
+
+[Oresim]:
+ore-sim
+rendering
